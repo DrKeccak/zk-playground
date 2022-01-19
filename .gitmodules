@@ -1,0 +1,9 @@
+[submodule "contracts"]
+	path = contracts
+	url = https://github.com/zk-playground/contracts
+[submodule "circuits"]
+	path = circuits
+	url = https://github.com/zk-playground/circuits
+[submodule "app"]
+	path = app
+	url = https://github.com/zk-playground/app

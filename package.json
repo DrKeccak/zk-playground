@@ -1,0 +1,21 @@
+{
+  "name": "@zk-playground/project",
+  "version": "0.1.0",
+  "description": "Zk Playground",
+  "repository": "https://github.com/zk-playground/project",
+  "author": "Dr.Keccak",
+  "workspaces": [
+    "app",
+    "circuits",
+    "contracts"
+  ],
+  "scripts": {
+    "build:app": "yarn workspace @zk-playground/app build",
+    "build:contracts": "yarn workspace @zk-playground/contracts build",
+    "build:circuits": "yarn workspace @zk-playground/circuits compile"
+  },
+  "private": true,
+  "devDependencies": {
+    "ts-node": "^10.4.0"
+  }
+}
